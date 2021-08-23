@@ -5,8 +5,8 @@ export default function Navbar() {
     return(
         <div className="mx-5">
             <nav className="flex flex-row w-full justify-center h-16 items-center">
-                <ul className="flex w-full flex-row justify-evenly uppercase text-sm font-light group hover:text-gray-300">
-                    <li className='hover:text-black hover:font-normal'>
+                <ul className="flex w-full flex-row justify-evenly uppercase text-sm group hover:text-gray-300">
+                    <li className='hover:text-black'>
                         <Link href="./about">
                             <a>About</a>
                         </Link>

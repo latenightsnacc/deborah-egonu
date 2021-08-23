@@ -11,7 +11,7 @@ export default function Navbar() {
                             <a>About</a>
                         </Link>
                     </li>
-                    <li className='hover:text-black'>
+                    <li className='hover:text-black border-b-2 border-b-blue-500'>
                         <Link href='/'>
                             <a>Work</a>
                         </Link>

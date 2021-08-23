@@ -1,6 +1,6 @@
 import Banner from './components/Banner/index'
 import Head from 'next/head'
-import Portfolio from './portfolio'
+import GridNav from './components/Grid/GridNav'
 
 
 // import Image from 'next/image'
@@ -16,7 +16,6 @@ export default function Home() {
       </Head>
       <main className="mx-5">
         <Banner />
-        <Portfolio />
       </main>
       
     </div>

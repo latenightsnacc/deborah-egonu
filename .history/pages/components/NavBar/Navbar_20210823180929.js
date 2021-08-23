@@ -5,25 +5,25 @@ export default function Navbar() {
     return(
         <div className="mx-5">
             <nav className="flex flex-row w-full justify-center h-16 items-center">
-                <ul className="flex w-full flex-row justify-evenly uppercase text-sm font-light group hover:text-gray-300">
-                    <li className='hover:text-black hover:font-normal'>
+                <ul className="flex w-1/2 flex-row justify-center">
+                    <li>
                         <Link href="./about">
                             <a>About</a>
                         </Link>
                     </li>
-                    <li className='hover:text-black'>
-                        <Link href='/'>
+                    <li className="mx-20">
+                        <Link href='./portfolio/portfolio'>
                             <a>Work</a>
                         </Link>
                     </li>
-                    <li className='hover:text-black'>
-                        <Link  href='./resume/'>
+                    <li >
+                        <Link  href='./courses/courses'>
                             <a>Resume</a>
                         </Link>
                         
                     </li>
-                    <li className='hover:text-black'>
-                        <Link  href='./courses/'>
+                    <li className="ml-20">
+                        <Link  href='./courses/courses'>
                             <a>Learn</a>
                         </Link>
                         
