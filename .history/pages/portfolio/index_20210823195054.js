@@ -19,12 +19,12 @@ export default function Portfolio(){
 
                     </div>
                 <div className="bg-yellow-900 h-96 relative group hover:bg-gray-50">
-                    <div className="absolute top-44 left-32 md:left-40">
+                    <div className="absolute top-44 left-36 md:left-40">
                     <h2 className="text-gray-100 group-hover:text-yellow-900 opacity-0 group-hover:opacity-100 group-hover:transition-opacity group-hover:font-semibold uppercase text-2xl tracking-widest ">Mama Put</h2></div>
 
                     </div>
                 <div className="bg-yellow-300 h-96 relative group hover:bg-gray-50">
-                    <div className="absolute top-44 left-32 md:left-40">
+                    <div className="absolute top-44 left-34 md:left-40">
                     <h2 className="text-gray-100 group-hover:text-yellow-300 opacity-0 group-hover:opacity-100 group-hover:transition-opacity group-hover:font-semibold uppercase text-2xl tracking-widest ">Trykademy</h2></div>
 
                     </div>
