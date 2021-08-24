@@ -9,7 +9,7 @@ export default function About(){
                     <div className="w-1/2">
                         
                     </div>
-                    <div className="w-1/2 py-10 font-light leading-loose">
+                    <div className="w-1/2 py-5 font-light leading-loose">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsam molestias consectetur odio iusto fugiat quo et, ad vero cum obcaecati ullam accusantium recusandae quia! Perferendis quam inventore vero officia laboriosam voluptatum deleniti iure in.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsam molestias consectetur odio iusto fugiat quo et, ad vero cum obcaecati ullam accusantium recusandae quia! Perferendis quam inventore vero officia laboriosam voluptatum deleniti iure in.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsam molestias consectetur odio iusto fugiat quo et, ad vero cum obcaecati ullam accusantium recusandae quia! Perferendis quam inventore vero officia laboriosam voluptatum deleniti iure in.</p>
