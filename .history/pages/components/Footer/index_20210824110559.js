@@ -4,20 +4,20 @@ import Link from 'next/link'
 export default function Footer() {
     return (
         <div className="flex flex-col w-full text-center mt-5 h-20 items-center justify-center">
-            <ul className="w-full flex flex-row justify-center py-3">
+            <ul className="w-full flex flex-row justify-center py-5">
                 <li>
-                    <Link href='https://www.linkedin.com/in/deborahegonu/' >
-                        <i className="fab fa-linkedin fa-2x"></i>
+                    <Link href='/' >
+                        <i className="fab fa-linkedin"></i>
                     </Link>
                 </li>
                 <li className="mx-10">
-                    <Link href="https://github.com/latenightsnacc">
-                        <i className="fab fa-github fa-2x"></i>
+                    <Link href="github.com">
+                        <i className="fab fa-github"></i>
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://dribbble.com/latenitesnacc">
-                        <i className="fab fa-dribbble fa-2x"></i>
+                    <Link href="github.com">
+                        <i className="fab fa-dribbble"></i>
                     </Link>
                 </li>
             </ul>

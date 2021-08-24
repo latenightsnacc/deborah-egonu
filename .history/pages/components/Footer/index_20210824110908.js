@@ -16,7 +16,7 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://dribbble.com/latenitesnacc">
+                    <Link href="github.com">
                         <i className="fab fa-dribbble fa-2x"></i>
                     </Link>
                 </li>

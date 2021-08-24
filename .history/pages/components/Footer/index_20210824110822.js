@@ -11,12 +11,12 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li className="mx-10">
-                    <Link href="https://github.com/latenightsnacc">
+                    <Link href="github.com">
                         <i className="fab fa-github fa-2x"></i>
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://dribbble.com/latenitesnacc">
+                    <Link href="github.com">
                         <i className="fab fa-dribbble fa-2x"></i>
                     </Link>
                 </li>
