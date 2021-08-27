@@ -4,12 +4,9 @@ export default function Resume(){
         
             <div className="container">
                 <div className="w-full flex flex-row">
-                    <div className="w-2/3 pl-20">
-                        <div>
-                            <h1 className="pb-2 font-black font-bold text-3xl">Deborah Onyebuchi Egonu</h1>
-                            <h2 className="text-blue-500 font-semibold text">Front-end Developer</h2>
-                        </div>
-                        
+                    <div className="w-2/3 bg-gray-100">
+                        <h1>Deborah Egonu</h1>
+                        <h2>Front-end Developer</h2>
                     </div>
                     <div className="w-1/3 ">
                         <div className="mb-3" id="contact-section">
@@ -82,11 +79,19 @@ export default function Resume(){
                         </div>   
                         <div id="activities">
                         <h3 className="text-lg uppercase font-bold text-gray-900">Activities</h3>
-                            <div id="qwf" className="my-2">
+                            <div id="technical-skills" className="my-2">
                                 <h4 className="font-semibold  text-sm uppercase text-gray-900 py-2">#QWF - Head of IT</h4>
                                 <ul className="flex flex-row text-black text-sm font-medium">
                                     <li>Prototyping | &nbsp;</li>
                                     <li> Responsive Design | &nbsp; </li>
+                                </ul>
+                            </div>
+                            <div id="soft-skills" className="my-2">
+                                <h4 className="font-medium text-sm uppercase text-gray-900 py-2">Soft</h4>
+                                <ul className="flex flex-row text-black text-sm font-medium">
+                                    <li>Communication | &nbsp;</li>
+                                    <li> Problem-solving | &nbsp; </li>
+                                    <li> Design Thinking | &nbsp; </li>
                                 </ul>
                             </div>
                         </div>   

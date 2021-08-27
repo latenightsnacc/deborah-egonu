@@ -4,10 +4,10 @@ export default function Resume(){
         
             <div className="container">
                 <div className="w-full flex flex-row">
-                    <div className="w-2/3 pl-20">
+                    <div className="w-2/3 bg-gray-100">
                         <div>
-                            <h1 className="pb-2 font-black font-bold text-3xl">Deborah Onyebuchi Egonu</h1>
-                            <h2 className="text-blue-500 font-semibold text">Front-end Developer</h2>
+                            <h1 className="pb-2 font-black font-bold">Deborah Egonu</h1>
+                            <h2>Front-end Developer</h2>
                         </div>
                         
                     </div>

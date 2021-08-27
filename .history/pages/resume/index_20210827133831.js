@@ -4,12 +4,9 @@ export default function Resume(){
         
             <div className="container">
                 <div className="w-full flex flex-row">
-                    <div className="w-2/3 pl-20">
-                        <div>
-                            <h1 className="pb-2 font-black font-bold text-3xl">Deborah Onyebuchi Egonu</h1>
-                            <h2 className="text-blue-500 font-semibold text">Front-end Developer</h2>
-                        </div>
-                        
+                    <div className="w-2/3 bg-gray-100">
+                        <h1>Deborah Egonu</h1>
+                        <h2>Front-end Developer</h2>
                     </div>
                     <div className="w-1/3 ">
                         <div className="mb-3" id="contact-section">
@@ -20,7 +17,7 @@ export default function Resume(){
                                 <li>0812 501 8789</li>
                             </ul>
                         </div>
-                        <div className="mb-3" id="education-section">
+                        <div id="education-section">
                         <h3 className="text-lg uppercase font-bold text-gray-900">education</h3>
                             <div id="schoolOne" className="my-2">
                                 <h4 className="font-semibold text-gray-900">BlueCrest University</h4>
@@ -29,8 +26,15 @@ export default function Resume(){
                                 </div>
                                 <p className="font-medium text-sm text-gray-700">B.Sc. Information Technology</p>
                             </div>
+                            <div id="schoolOne" className="my-2">
+                                <h4 className="font-semibold text-gray-900">Fairview International School</h4>
+                                <div className="text-sm text-gray-400 font-light py-1">
+                                    <span>2012 - 2014</span> / <span>Accra, Ghana</span>
+                                </div>
+                                <p className="font-medium text-sm text-gray-700">High School Diploma</p>
+                            </div>
                         </div>   
-                        <div className="mb-3" id="languages-section">
+                        <div id="languages-section">
                         <h3 className="text-lg uppercase font-bold text-gray-900">languages</h3>
                             <div id="web-dev" className="my-2">
                                 <h4 className="font-semibold  text-sm uppercase text-gray-900 py-2">Web Development</h4>
@@ -39,9 +43,7 @@ export default function Resume(){
                                     <li> CSS | &nbsp; </li>
                                     <li> SCSS | &nbsp; </li>
                                     <li> Javascript | &nbsp; </li>
-                                    <li> jQuery | &nbsp; </li>  
-                                    <li> MySQL | &nbsp; </li>  
-                                    <li> Node JS  </li>  
+                                    <li> jQuery  </li>  
                                 </ul>
                             </div>
                             <div id="mobile-dev" className="my-2">
@@ -49,15 +51,6 @@ export default function Resume(){
                                 <ul className="flex flex-row text-black text-sm font-medium">
                                     <li>Dart | &nbsp;</li>
                                     <li> Flutter </li>
-                                </ul>
-                            </div>
-                            <div id="others" className="my-2">
-                                <h4 className="font-semibold  text-sm uppercase text-gray-900 py-2">Frame works /Others</h4>
-                                <ul className="flex flex-row text-black text-sm font-medium">
-                                    <li>React JS | &nbsp;</li>
-                                    <li>Next JS | &nbsp;</li>
-                                    <li>Python | &nbsp;</li>
-                                    <li> Java </li>
                                 </ul>
                             </div>
                             
@@ -77,16 +70,6 @@ export default function Resume(){
                                     <li>Communication | &nbsp;</li>
                                     <li> Problem-solving | &nbsp; </li>
                                     <li> Design Thinking | &nbsp; </li>
-                                </ul>
-                            </div>
-                        </div>   
-                        <div id="activities">
-                        <h3 className="text-lg uppercase font-bold text-gray-900">Activities</h3>
-                            <div id="qwf" className="my-2">
-                                <h4 className="font-semibold  text-sm uppercase text-gray-900 py-2">#QWF - Head of IT</h4>
-                                <ul className="flex flex-row text-black text-sm font-medium">
-                                    <li>Prototyping | &nbsp;</li>
-                                    <li> Responsive Design | &nbsp; </li>
                                 </ul>
                             </div>
                         </div>   
