@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/link-passhref */
 import Head from "next/head"
 import Spacer from "../components/Spacer"
 import Link from 'next/link'
@@ -34,7 +33,7 @@ export default function Courses(){
                                 <option value="Undecided">Undecided</option>
                             </select>
                         </div>
-                        <Link href="courses/web-development/">
+                        <Link href="web-development/">
                         
                             <button className="bg-gray-50 ml-5 px-10 py-2 text-2xl text-blue-500 text-center w-36 rounded-2xl shadow-xl hover:shadow-2xl hover:text-blue-600">Start</button>
                         </Link>

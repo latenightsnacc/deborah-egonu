@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/link-passhref */
 import Head from "next/head"
 import Spacer from "../components/Spacer"
 import Link from 'next/link'
