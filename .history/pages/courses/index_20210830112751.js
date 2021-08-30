@@ -18,14 +18,14 @@ export default function Courses(){
                 </div>
             </section>
             <Spacer />
-            <section className="bg-blue-500 h-96 dark-mode:bg-gray-900">
+            <section className="bg-blue-500 h-96">
                 
                 <div className="flex flex-col justify-center h-full items-center">
                 <h1 className="text-center pb-5 text-5xl font-bold text-gray-50">Start your journey</h1>
                     <form className="flex flex-row">
                         <div className="text-3xl  font-semibold text-gray-100">I,&nbsp;
                             <span>
-                                <input className="p-2 no-outline placeholder-blue-500 " type="text" placeholder="enter your name" />
+                                <input className="p-2 no-outline" type="text" placeholder="enter your name" />
                             </span> want to be a&nbsp;
                             <select className="p-2 no-outline text-blue-500" required="true">
                                 <option value="" selected>Select your path</option>
@@ -33,7 +33,7 @@ export default function Courses(){
                                 <option value="Undecided">Undecided</option>
                             </select>
                         </div>
-                        <button className="bg-gray-50 ml-5 px-10 py-2 text-2xl text-blue-500 text-center w-36 rounded-2xl shadow-xl hover:shadow-2xl hover:text-blue-600">Start</button>
+                        <button className="bg-gray-50 ml-5 px-10 py-2 text-2xl text-blue-500 text-center w-36 rounded-2xl shadow-xl hover:shadow-2xl hover:border-2 hover:border-blue-600">Begin</button>
                     </form>
                 </div>
             </section>

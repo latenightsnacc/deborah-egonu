@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Spacer from "../components/Spacer"
 
 
@@ -6,34 +5,25 @@ export default function Courses(){
 
     return (
         <>
-            <Head>
-                <meta type="description" content="Learn web design, web development, ui/ux design, front-end, back-end with Deborah Egonu. Start your journey today!" />
-                <title>Start your journey - Become a designer/developer</title>
-            </Head>
             <section className="w-full  h-96">
                 <div className="flex flex-row justify-center h-full items-center">
                     <div className="text-center">
-                        <p className=" text-gray-900 text-3xl flex flex-row  h-auto items-center justify-start">To teach is to master <br/> to learn is the journey.</p>
+                        <p className=" text-blue-600 text-5xl flex flex-row font-bold h-auto items-center justify-start">To teach is to master <br/> and to learn is the journey.</p>
                     </div>
                 </div>
             </section>
             <Spacer />
-            <section className="bg-blue-500 h-96 dark-mode:bg-gray-900">
-                
-                <div className="flex flex-col justify-center h-full items-center">
-                <h1 className="text-center pb-5 text-5xl font-bold text-gray-50">Start your journey</h1>
-                    <form className="flex flex-row">
-                        <div className="text-3xl  font-semibold text-gray-100">I,&nbsp;
+            <section className="bg-red-100 h-96">
+                <div className="flex flex-row justify-center h-full items-center">
+                    <form>
+                        <p className="text-2xl">I,&nbsp;
                             <span>
-                                <input className="p-2 no-outline placeholder-blue-500 " type="text" placeholder="enter your name" />
+                                <input className="p-2 no-outline" type="text" placeholder="enter your name" />
                             </span> want to be a&nbsp;
-                            <select className="p-2 no-outline text-blue-500" required="true">
-                                <option value="" selected>Select your path</option>
-                                <option value="Web Developer">Web Developer</option>
-                                <option value="Undecided">Undecided</option>
+                            <select className="p-2 no-outline">
+                                <option>Web Developer</option>
                             </select>
-                        </div>
-                        <button className="bg-gray-50 ml-5 px-10 py-2 text-2xl text-blue-500 text-center w-36 rounded-2xl shadow-xl hover:shadow-2xl hover:text-blue-600">Start</button>
+                        </p>
                     </form>
                 </div>
             </section>

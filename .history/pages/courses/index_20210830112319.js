@@ -13,19 +13,19 @@ export default function Courses(){
             <section className="w-full  h-96">
                 <div className="flex flex-row justify-center h-full items-center">
                     <div className="text-center">
-                        <p className=" text-gray-900 text-3xl flex flex-row  h-auto items-center justify-start">To teach is to master <br/> to learn is the journey.</p>
+                        <p className=" text-gray-900 text-3xl flex flex-row font-semibold h-auto items-center justify-start">To teach is to master <br/> to learn is the journey.</p>
                     </div>
                 </div>
             </section>
             <Spacer />
-            <section className="bg-blue-500 h-96 dark-mode:bg-gray-900">
+            <section className="bg-blue-500 h-96">
                 
                 <div className="flex flex-col justify-center h-full items-center">
                 <h1 className="text-center pb-5 text-5xl font-bold text-gray-50">Start your journey</h1>
                     <form className="flex flex-row">
                         <div className="text-3xl  font-semibold text-gray-100">I,&nbsp;
                             <span>
-                                <input className="p-2 no-outline placeholder-blue-500 " type="text" placeholder="enter your name" />
+                                <input className="p-2 no-outline" type="text" placeholder="enter your name" />
                             </span> want to be a&nbsp;
                             <select className="p-2 no-outline text-blue-500" required="true">
                                 <option value="" selected>Select your path</option>
@@ -33,7 +33,7 @@ export default function Courses(){
                                 <option value="Undecided">Undecided</option>
                             </select>
                         </div>
-                        <button className="bg-gray-50 ml-5 px-10 py-2 text-2xl text-blue-500 text-center w-36 rounded-2xl shadow-xl hover:shadow-2xl hover:text-blue-600">Start</button>
+                        <button className="bg-gray-50 ml-5 px-10 py-2 text-2xl text-blue-500 rounded-2xl shadow-xl hover:shadow-2xl hover:bg-blue-400 hover:text-gray-50">Begin</button>
                     </form>
                 </div>
             </section>

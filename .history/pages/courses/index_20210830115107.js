@@ -25,7 +25,7 @@ export default function Courses(){
                     <form className="flex flex-row">
                         <div className="text-3xl  font-semibold text-gray-100">I,&nbsp;
                             <span>
-                                <input className="p-2 no-outline placeholder-blue-500 " type="text" placeholder="enter your name" />
+                                <input className="p-2 no-outline placeholder-blue-500" type="text" placeholder="enter your name" />
                             </span> want to be a&nbsp;
                             <select className="p-2 no-outline text-blue-500" required="true">
                                 <option value="" selected>Select your path</option>

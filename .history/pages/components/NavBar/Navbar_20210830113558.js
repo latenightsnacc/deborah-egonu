@@ -30,7 +30,7 @@ export default function Navbar() {
                     </li>
                     <li className='hover:text-black'>
                         <button>
-                            <i className="fas fa-adjust"></i>
+                            <i className="fa"></i>
                         </button>
                     </li>
                     
